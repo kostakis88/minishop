@@ -16,6 +16,11 @@
   </div>
   <div id="columns">
     <div id="side">
+      <div class="cart">
+        <% if @cart %>
+          <%= render @cart %>
+        <% end %>
+      </div>
       <ul>
         <li><a href="http://www....">Home</a></li>
         <li><a href="http://www..../faq">Questions</a></li>
